@@ -1,0 +1,36 @@
+{
+    "name": "ir_jam",
+    "description": "A basic theme used to power the site http://www.internetradiojam.com",
+    "demo": "https://demo.ghost.io",
+    "version": "1.3.4",
+    "engines": {
+        "ghost": ">=0.9.0 <1.0.0"
+    },
+    "license": "MIT",
+    "screenshots": {
+        "desktop": "assets/screenshot-desktop.jpg",
+        "mobile": "assets/screenshot-mobile.jpg"
+    },
+    "author": {
+        "name": "Internet Radio Jam",
+        "email": "sergio.rrd@gmail.com",
+        "url": "http://www.internetradiojam.com"
+    },
+    "gpm": {
+        "type": "theme",
+        "categories": [
+            "Minimal",
+            "Personal Blogs"
+        ]
+    },
+    "keywords": [
+        "ghost",
+        "theme"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sergio101/ir_jam_ghost_theme.git"
+    },
+    "bugs": "https://github.com/TryGhost/Casper/issues",
+    "contributors": "https://github.com/TryGhost/Casper/graphs/contributors"
+}

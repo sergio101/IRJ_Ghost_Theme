@@ -1,0 +1,19 @@
+{{!< default}}
+
+<div class="row">
+    <div class="col-md-8" >
+	<h4><em>{{@blog.description}}</em></h4>
+	<section>
+	    {{#get "posts" limit="5" as |recents|}}
+		<h2>Recent Articles</h2>
+		{{#foreach recents}}
+		    <h3><a href="{{url}}">{{title}}</a></h3>
+		    <p><em>{{excerpt}}</em></p>
+		{{/foreach}}
+	    {{/get }}
+	</section>
+    </div>
+    <div class="col-md-4" >
+	{{> main_sidebar }}
+    </div>
+</div>
